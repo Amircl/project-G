@@ -95,3 +95,10 @@ if (modify_file_content(fs, "test.txt", "Новое содержимое") == 0)
 
 ## Коммит изменений в ветку dev
 
+1. Сохранили изменения в файлах `filesystem.c` и `README.md`
+2. Выполнили:
+```bash
+git add filesystem.c README.md
+git commit -m "Implement and document basic filesystem functions"
+git push origin dev
+```
